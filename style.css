@@ -2,109 +2,58 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f2f6fc;
+    background-color: #f8f4fc;
     color: #333333;
+    line-height: 1.6;
 }
 
-/* Header */
 header {
-    background-color: #123456;
+    background-color: #65458a;
     color: white;
-    padding: 25px;
+    text-align: center;
+    padding: 20px;
 }
 
-header h1 {
-    margin-bottom: 5px;
-}
-
-header p {
-    margin-top: 5px;
-}
-
-/* Navigation */
 nav {
-    background-color: #087f8c;
+    background-color: #e6d9f2;
+    text-align: center;
     padding: 15px;
 }
 
 nav a {
-    color: white;
+    color: #50346f;
     text-decoration: none;
     margin: 12px;
-    font-weight: bold;
 }
 
-/* Sections */
 section {
-    padding: 30px 20px;
+    padding: 15px 30px;
 }
 
-section p {
-    max-width: 750px;
-    margin: 10px auto;
-    line-height: 1.7;
-}
-
-/* Headings */
 h2 {
-    color: #123456;
+    color: #65458a;
 }
 
 h3 {
-    color: #087f8c;
+    color: #65458a;
 }
 
-/* Button */
-button {
-    background-color: #087f8c;
-    color: white;
-    padding: 12px 22px;
-    border: none;
-    border-radius: 5px;
-    font-size: 15px;
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
-/* Course and Facility Cards */
-.card {
-    display: inline-block;
-    vertical-align: top;
-    background-color: white;
-    width: 230px;
-    min-height: 125px;
+.book {
+    background-color: #eee5f7;
     padding: 15px;
-    margin: 12px;
-    border-radius: 8px;
-    box-shadow: 0 3px 10px #d5dce5;
+    width: 200px;
+    border: 1px solid #d3c0e6;
 }
 
-.card p {
-    font-size: 14px;
-}
-
-/* Footer */
 footer {
-    background-color: #123456;
+    background-color: #65458a;
     color: white;
-    padding: 15px;
-}
-
-footer p {
-    margin: 5px;
-}
-
-/* Mobile Screen */
-@media (max-width: 600px) {
-    nav a {
-        display: inline-block;
-        margin: 7px;
-    }
-
-    .card {
-        width: 80%;
-    }
-
-    header h1 {
-        font-size: 24px;
-    }
+    text-align: center;
+    padding: 12px;
 }
